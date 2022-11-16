@@ -10,7 +10,7 @@ with header:
 
 
 
-result = st.button("Let's run the script!")
+result = st.button("Let's run the script! You will need to wait up to 1 Minute until you can download the file")
 
 st.write(result)
 
