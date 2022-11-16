@@ -1,3 +1,4 @@
+!pip install streamlit
 import streamlit as st
 # from functions import this_is_it
 import pandas as pd
