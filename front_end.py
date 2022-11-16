@@ -104,7 +104,7 @@ if result_2:
 
     # csv = convert_df("C:\Users\u238133\OneDrive - SBB\Dokumente\Coding Area\DokumentDownloader\test_data.csv")
     # csv = pd.read_csv(r"C:\Users\u238133\OneDrive - SBB\Dokumente\Coding Area\DokumentDownloader\test_data.csv")
-    csv = "https://github.com/SafeDave202/myfirstwebapp/blob/5339e955f39923e8c927524f3fc813a6b0573c2e/test_data.csv"
+    csv = pd.read_csv("https://github.com/SafeDave202/myfirstwebapp/blob/5339e955f39923e8c927524f3fc813a6b0573c2e/test_data.csv")
     csv = convert_df(csv)
 
     st.download_button(
