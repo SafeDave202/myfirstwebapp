@@ -1,6 +1,8 @@
 import streamlit as st
 # from functions import this_is_it
 import pandas as pd
+import pyodbc
+import plotly.express as px
 
 header = st.container()
 dataset = st.container()
@@ -15,11 +17,11 @@ result = st.button("Let's run the script! You will need to wait up to 1 Minute u
 st.write(result)
 
 if result:
-    from datetime import datetime  # für Zeitüberwachung des SQL-Querys
+    # from datetime import datetime  # für Zeitüberwachung des SQL-Querys
 
-    import pandas as pd
-    import plotly.express as px
-    import pyodbc  # odbc-connection (für DB)
+    # import pandas as pd
+    # import plotly.express as px
+    # import pyodbc  # odbc-connection (für DB)
 
 
     # HDBODBC angeben (Name des SAP-ODBC)
