@@ -76,8 +76,7 @@ if result:
 
     newdf["Counter"] = 1
     newdf.rename(columns = {'MIN(EGT)':'EGT'}, inplace = True)
-    newdf.to_csv(r"C:\Users\u238133\OneDrive - SBB\Dokumente\Coding Area\Tasks\Rüdiger Abfrage Score ML\data.csv")
-
+    # newdf.to_csv(r"C:\Users\u238133\OneDrive - SBB\Dokumente\Coding Area\Tasks\Rüdiger Abfrage Score ML\data.csv")
 
 
 
@@ -104,7 +103,8 @@ if result_2:
         return df.to_csv().encode('utf-8')
 
     # csv = convert_df("C:\Users\u238133\OneDrive - SBB\Dokumente\Coding Area\DokumentDownloader\test_data.csv")
-    csv = pd.read_csv(r"C:\Users\u238133\OneDrive - SBB\Dokumente\Coding Area\DokumentDownloader\test_data.csv")
+    # csv = pd.read_csv(r"C:\Users\u238133\OneDrive - SBB\Dokumente\Coding Area\DokumentDownloader\test_data.csv")
+csv = 
     csv = convert_df(csv)
 
     st.download_button(
